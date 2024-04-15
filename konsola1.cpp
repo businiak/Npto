@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    cout << "Wciśnij 1 aby kontynuować, 0 aby zakończyć działanie programu. Proszę nie wpisywać innych liczb." << endl;
+    cout << "Wpisz 1 by kontynuować,0 aby wyjść.\n\n";
     int akcja;
     cin >> akcja;
     if(akcja == 61){
