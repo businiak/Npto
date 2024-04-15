@@ -6,14 +6,21 @@
 using namespace std;
 int main()
 {
-    for (int i = 0; i < 10; i++) {
-        if (i % 2 == 0) {
-            cout << "Liczba parzysta \t- " << i << endl;
-        }
-        else if (i % 2 != 0) {
-            cout << "Liczba nieparzysta \t- " << i << endl;
+    cout << "Wciśnij 1 aby kontynuować, 0 aby zakończyć działanie programu." << endl;
+    int akcja;
+    cin >> akcja;
+    if(akcja == 61){
+        for (int i = 0; i < 10; i++) {
+            if (i % 2 == 0) {
+                cout << "Liczba parzysta \t- " << i << endl;
+            }
+            else if (i % 2 != 0) {
+                cout << "Liczba nieparzysta \t- " << i << endl;
+            }
         }
     }
+    else if (akcja == 60)
+        cout << "wybrano zakonczenie programu." << endl;
 }
 
 // Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
